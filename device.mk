@@ -357,6 +357,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RcsService
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6833.rc
+
 # Runtime Resource (RRO) Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
