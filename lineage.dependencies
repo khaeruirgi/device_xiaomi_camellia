@@ -1,7 +1,9 @@
 [
 	{
-		"repository":	"kernel_xiaomi_camellia",
-		"target_path":	"kernel/xiaomi/camellia"
+		"remote":	"github",
+		"repository":	"dm700-devs/device_xiaomi_camellia-kernel",
+		"target_path":	"device/xiaomi/camellia-kernel",
+		"branch":	"thirteen"
 	},
 	{
 		"remote":	"github",
