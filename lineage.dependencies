@@ -4,8 +4,10 @@
 		"target_path":	"kernel/xiaomi/camellia"
 	},
 	{
-		"repository":	"vendor_xiaomi_camellia",
-		"target_path":	"vendor/xiaomi/camellia"
+		"remote":	"github",
+		"repository":	"dm700-devs/vendor_xiaomi_camellia",
+		"target_path":	"vendor/xiaomi/camellia",
+		"branch":	"thirteen"
 	},
 	{
 		"remote":	"github",
@@ -15,8 +17,14 @@
 	},
 	{
 		"remote":	"github",
-		"repository":	"Xiaomi-MT6833/hardware_xiaomi",
+		"repository":	"ArrowOS-Devices/android_hardware_xiaomi",
 		"target_path":	"hardware/xiaomi",
+		"branch":	"arrow-13.1"
+	},
+	{
+		"remote":	"github",
+		"repository":	"dm700-devs/hardware_mediatek"
+		"target_path":	"hardware/mediatek",
 		"branch":	"thirteen"
 	}
 ]
